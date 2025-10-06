@@ -7,7 +7,7 @@ const gifts = ref([
         id: 1,
         nom: 'Stream Deck Elgato',
         prix: 169.99,
-        description: 'Boîtier de contrôle pour PC à 15 touches. Déclenchez des actions, lancez des applications et contrôlez l\'ensemble de votre configuration à partir d\'un deck hyper personnalisable avec touches LCD lumineuses.',
+        description: 'Un Stream Deck, c\'est une mini console de controle du PC avec des boutons personnalisables. Je m\'en servirai pour mes montages, pour le developpement et aussi pour le jeu forcement. C\'est surtout utile pour faire de la gestion de taches rapides pour effecturer des actions sur le pc en 1 clic plutot que de devoir chercher dans les menus ou sur internet etc...',
         image: '/images/stream_deck.jpg',
         lien: 'https://www.elgato.com/fr/fr/p/stream-deck-mk2-black'
     },
@@ -15,23 +15,23 @@ const gifts = ref([
         id: 2,
         nom: 'AOC AM420B - Double Bras Écran',
         prix: 89.95,
-        description: 'Double bras avec système de ressort mécanique à gaz pour 2 écrans jusqu\'à 34 pouces (9 kg max) - angle de rotation de 360°',
+        description: 'Actuellement je suis obligé d\'incliner mes ecrans pour qu\'ils tiennent en équilibre sans s\'écrouler xD. Un bras double et de bonne qualité serait parfait pour arranger tout ça et gagner de la place sur mon bureau.',
         image: '/images/AOC.jpg',
         lien: 'https://www.ldlc.com/fiche/PB00607372.html'
     },
     {
         id: 3,
-        nom: 'Sac à Dos Élégant Noir',
-        prix: 100,
-        description: 'Un sac à dos pour homme noir élégant avec assez d\'espace pour PC + affaires + 1 livre. Au choix, je suis pas difficile!',
-        image: '/images/sac.jpg',
-        lien: ''
+        nom: 'Sac à dos à rabat roulé Tommy Hilfiger',
+        prix: 139.90,
+        description: 'J\'aimerai bien un nouveau sac à dos pour remplacer mon sac trop petit pour rentrer mon PC, ma gourde, mon livre et le reste de mes affaires.',
+        image: '/images/sac-travail.webp',
+        lien: 'https://fr.tommy.com/sac-%C3%A0-dos-%C3%A0-rabat-roul%C3%A9-am0am13644pa7'
     },
     {
         id: 4,
         nom: 'DJI Avata 2',
         prix: 489,
-        description: 'Drone uniquement - j\'ai déjà tout le matos! Le drone FPV ultime pour des prises de vue immersives et spectaculaires.',
+        description: 'Ce drone m\'a toujours fait de l\'oeil. Il me permettrait de faire de la vidéo immersive en FPV et je pourrais bien me faire kiffer et commencer à poster sur mon compte TikTok et insta qui sont désert en ce moment mdr.',
         image: '/images/avata2.jpg',
         lien: 'https://store.dji.com/fr/product/dji-avata-2-drone-only?vid=164691'
     },
@@ -39,9 +39,41 @@ const gifts = ref([
         id: 5,
         nom: 'DJI Jeu de Filtres ND Mini 4 Pro',
         prix: 48.49,
-        description: 'Pack de 3 filtres ND (ND16/64/256) pour DJI Mini 4 Pro - parfait pour filmer en plein jour avec des vitesses d\'obturation optimales!',
+        description: 'C\'est le petit cadeau très utile, je ne vais pas rentrer dans la technique mais en gros ça permet de filmer dans un format très spécifique, plus adapté pour faire de la retouche derrière en post prod avec mon drone cinématique.',
         image: '/images/filtresNd.jpg',
         lien: 'https://amzn.eu/d/jg6tBhB'
+    },
+    {
+        id: 6,
+        nom: 'ASUS ROG Moonstone Ace L Black - Tapis de Souris Gaming',
+        prix: 86.22,
+        description: 'C\'est LA révolution des tapis de souris, les tapis en verre trempé. C\'est super agréable au toucher, ça glisse tout seul et en plus c\'est super beau. Du coup je voulais changer mon tapis AliExpress :)',
+        image: '/images/tapis.jpg',
+        lien: 'https://amzn.eu/d/91ev9x9'
+    },
+    {
+        id: 7,
+        nom: 'K&F CONCEPT Sac à Dos pour Appareil Photo / Drone',
+        prix: 85.99,
+        description: 'Mon sac à dos AliExpress se déchire de partout sans rien faire... J\'ai eu un petit coup de coeur pour ce sac à dos qui a l\'air super pratique et costaud tout en restant beau. Je pourrais y ranger mon drone et tout mon matos sans soucis.',
+        image: '/images/sac-drone.jpg',
+        lien: 'https://amzn.eu/d/0VfBaPC'
+    },
+    {
+        id: 8,
+        nom: 'Tommy Hilfiger CENTRAL REPORTER - Sac bandoulière - black',
+        prix: 69.95,
+        description: 'J\'ai envie d\'une petite sacoche pratique pour sortir léger mais jolie quand je sors en ville. Je kiff la marque Tommy Hilfiger et je la trouve bien sympa et elle change de celle que j\'ai déjà.',
+        image: '/images/sacoche.webp',
+        lien: 'https://www.zalando.fr/tommy-hilfiger-central-reporter-sac-bandouliere-black-to152h0or-q11.html'
+    },
+    {
+        id: 9,
+        nom: 'Pier One UNISEX - Sac ordinateur - black',
+        prix: 30.49,
+        description: 'Une petite sacoche très sympa pour mon PC Portable pour quand je veux voyager léger et pas prendre mon gros sac à dos. Elle est simple mais efficace et pas trop chère.',
+        image: '/images/sac-pc.webp',
+        lien: 'https://www.zalando.fr/pier-one-unisex-sac-ordinateur-black-pi954h060-q11.html'
     }
 ])
 
@@ -77,7 +109,7 @@ onMounted(() => {
         <GiftList :gifts="gifts" />
 
         <footer class="footer">
-            <p>Fait avec ❤️ et beaucoup de café</p>
+            <p>Fait avec ❤️ et beaucoup d'amour</p>
         </footer>
     </div>
 </template>
