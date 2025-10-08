@@ -29,36 +29,38 @@ const gifts = ref([
     },
     {
         id: 4,
-        nom: 'DJI Jeu de Filtres ND Mini 4 Pro',
-        prix: 48.49,
-        description: 'C\'est le petit cadeau très utile, je ne vais pas rentrer dans la technique mais en gros ça permet de filmer dans un format très spécifique, plus adapté pour faire de la retouche derrière en post prod avec mon drone cinématique.',
-        image: '/images/filtresNd.jpg',
-        lien: 'https://amzn.eu/d/jg6tBhB'
-    },
-    {
-        id: 5,
         nom: 'Pier One UNISEX - Sac ordinateur - black',
         prix: 30.49,
         description: 'Une petite sacoche très sympa pour mon PC Portable pour quand je veux voyager léger et pas prendre mon gros sac à dos. Elle est simple mais efficace et pas trop chère.',
         image: '/images/sac-pc.webp',
         lien: 'https://www.zalando.fr/pier-one-unisex-sac-ordinateur-black-pi954h060-q11.html'
     },
+
     {
-        id: 6,
+        id: 5,
         nom: 'K&F CONCEPT Sac à Dos pour Appareil Photo / Drone',
         prix: 85.99,
         description: 'Mon sac à dos AliExpress se déchire de partout sans rien faire... J\'ai eu un petit coup de coeur pour ce sac à dos qui a l\'air super pratique et costaud tout en restant beau. Je pourrais y ranger mon drone et tout mon matos sans soucis.',
         image: '/images/sac-drone.jpg',
         lien: 'https://amzn.eu/d/0VfBaPC'
     },
-    // {
-    //     id: 7,
-    //     nom: 'Tommy Hilfiger CENTRAL REPORTER - Sac bandoulière - black',
-    //     prix: 69.95,
-    //     description: 'J\'ai envie d\'une petite sacoche pratique pour sortir léger mais jolie quand je sors en ville. Je kiff la marque Tommy Hilfiger et je la trouve bien sympa et elle change de celle que j\'ai déjà.',
-    //     image: '/images/sacoche.webp',
-    //     lien: 'https://www.zalando.fr/tommy-hilfiger-central-reporter-sac-bandouliere-black-to152h0or-q11.html'
-    // },
+
+    {
+        id: 6,
+        nom: 'Tablette graphique Wacom Intuos Medium Black',
+        prix: 102.34,
+        description: 'Je fais pas mal de retouche photo et vidéo, j\'aimerais bien avoir une tablette graphique pour faire ça plus facilement et plus précisément. J\'ai toujours rêvé d\'en avoir une mais je n\'ai jamais sauté le pas.',
+        image: '/images/tablette.jpg',
+        lien: 'https://amzn.eu/d/6wZ8tQK'
+    },
+    {
+        id: 7,
+        nom: 'DJI Jeu de Filtres ND Mini 4 Pro',
+        prix: 48.49,
+        description: 'C\'est le petit cadeau très utile, je ne vais pas rentrer dans la technique mais en gros ça permet de filmer dans un format très spécifique, plus adapté pour faire de la retouche derrière en post prod avec mon drone cinématique.',
+        image: '/images/filtresNd.jpg',
+        lien: 'https://amzn.eu/d/jg6tBhB'
+    },
     {
         id: 8,
         nom: 'Belkin Station d\'accueil USB-C multiport 11-en-1',
@@ -69,14 +71,6 @@ const gifts = ref([
     },
     {
         id: 9,
-        nom: 'Tablette graphique Wacom Intuos Medium Black',
-        prix: 102.34,
-        description: 'Je fais pas mal de retouche photo et vidéo, j\'aimerais bien avoir une tablette graphique pour faire ça plus facilement et plus précisément. J\'ai toujours rêvé d\'en avoir une mais je n\'ai jamais sauté le pas.',
-        image: '/images/tablette.jpg',
-        lien: 'https://amzn.eu/d/6wZ8tQK'
-    },
-    {
-        id: 10,
         nom: 'ASUS ROG Moonstone Ace L Black - Tapis de Souris Gaming',
         prix: 86.22,
         description: 'C\'est LA révolution des tapis de souris, les tapis en verre trempé. C\'est super agréable au toucher, ça glisse tout seul et en plus c\'est super beau. Du coup je voulais changer mon tapis AliExpress :)',
@@ -84,7 +78,7 @@ const gifts = ref([
         lien: 'https://amzn.eu/d/91ev9x9'
     },
     {
-        id: 11,
+        id: 10,
         nom: 'DJI Avata 2',
         prix: 489,
         description: 'Ce drone m\'a toujours fait de l\'oeil. Il me permettrait de faire de la vidéo immersive en FPV et je pourrais bien me faire kiffer et commencer à poster sur mon compte TikTok et insta qui sont désert en ce moment mdr.',
