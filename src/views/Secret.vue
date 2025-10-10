@@ -5,27 +5,27 @@ import GiftList from '../components/GiftList.vue'
 const gifts = ref([
     {
         id: 1,
-        nom: 'Bracelet Holzkern',
-        prix: 90,
-        description: 'Je trouve les bracelets de chez Holzkern magnifiques, j\'aimerais beaucoup en avoir un !',
+        nom: 'Pull Urek Mazino',
+        prix: 80.95,
+        description: 'Je le trouve vraiment très stylé, peut être un peu cher mais je kiff le style, le design et la couleur !',
+        image: '/images/urek.webp',
+        lien: 'https://torokami.com/products/mazino-hoodie-tower-of-god?variant=42229862465632'
+    },
+    {
+        id: 2,
+        nom: 'Bracelet Holzkern FORTE',
+        prix: 139,
+        description: 'Je trouve le bracelet FORTE vraiment très beau, que ce soit le bleu ou le vert. Je connais cette marque depuis un moment mais je n\'ai jamais acheter de bijoux chez eux. Celui ci me plairait beaucoup.',
         image: '/images/bracelet.jpg',
         lien: 'https://www.holzkern.com/fr/boutique/bracelets.html'
     },
     {
-        id: 2,
-        nom: 'Une bague plus classique',
-        prix: 109,
-        description: 'J\'aimerais bien avoir une bague plus classique et venant de toi, pour changer de ma bague noir et bleue que j\'ai déjà et la porter tous les jours. (à voir en magasin)',
-        image: '/images/bague.webp',
-        lien: 'https://www.histoiredor.com/fr_FR/p/bague-madine-acier-blanc-diamant/61610055816R43.html'
-    },
-    {
         id: 3,
         nom: 'Une veste de mi saison',
-        prix: 100,
-        description: 'J\'aimerais bien une veste de mi saison, pour changer de ma veste noire que j\'ai déjà qui commence à être un peu vieille.',
-        image: '/images/veste.webp',
-        lien: ''
+        prix: 69.99,
+        description: 'J\'aimerais bien une veste de mi saison, pour changer de ma veste noire que j\'ai déjà qui commence à être un peu vieille. (faut qu\'on aille au magasin ensemble pour choisir la veste parfaite 😏)',
+        image: '/images/veste.jpg',
+        lien: 'https://www.celio.com/fr-fr/p/bomber-matelasse---noir/1166170.html'
     }
 ])
 </script>

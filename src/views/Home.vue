@@ -44,7 +44,6 @@ const gifts = ref([
         image: '/images/sac-drone.jpg',
         lien: 'https://amzn.eu/d/0VfBaPC'
     },
-
     {
         id: 6,
         nom: 'Tablette graphique Wacom Intuos Medium Black',
@@ -55,6 +54,14 @@ const gifts = ref([
     },
     {
         id: 7,
+        nom: 'DJI Osmo Mobile 7',
+        prix: 119.99,
+        description: 'Un stabilisateur pour smartphone qui me servirait à compléter mes prises de vues avec mon drone. Je pourrais faire des vidéos plus pro avec mon téléphone et ça me permettrait de varier les plaisirs on va dire.',
+        image: '/images/osmo.jpg',
+        lien: 'https://amzn.eu/d/iZqdk25'
+    },
+    {
+        id: 8,
         nom: 'DJI Jeu de Filtres ND Mini 4 Pro',
         prix: 48.49,
         description: 'C\'est le petit cadeau très utile, je ne vais pas rentrer dans la technique mais en gros ça permet de filmer dans un format très spécifique, plus adapté pour faire de la retouche derrière en post prod avec mon drone cinématique.',
@@ -62,7 +69,7 @@ const gifts = ref([
         lien: 'https://amzn.eu/d/jg6tBhB'
     },
     {
-        id: 8,
+        id: 9,
         nom: 'Belkin Station d\'accueil USB-C multiport 11-en-1',
         prix: 65.99,
         description: 'Un hub USB-C pour brancher plein de trucs en même temps sur mon PC qui n\'a que 2 ports différents. Ça me permettra de brancher mon écran, mon disque dur, ma souris, mon clavier et tout le reste en un seul câble. C\'est super pratique !',
@@ -70,7 +77,7 @@ const gifts = ref([
         lien: 'https://amzn.eu/d/b39VzCa'
     },
     {
-        id: 9,
+        id: 10,
         nom: 'ASUS ROG Moonstone Ace L Black - Tapis de Souris Gaming',
         prix: 86.22,
         description: 'C\'est LA révolution des tapis de souris, les tapis en verre trempé. C\'est super agréable au toucher, ça glisse tout seul et en plus c\'est super beau. Du coup je voulais changer mon tapis AliExpress :)',
@@ -78,7 +85,7 @@ const gifts = ref([
         lien: 'https://amzn.eu/d/91ev9x9'
     },
     {
-        id: 10,
+        id: 11,
         nom: 'DJI Avata 2',
         prix: 489,
         description: 'Ce drone m\'a toujours fait de l\'oeil. Il me permettrait de faire de la vidéo immersive en FPV et je pourrais bien me faire kiffer et commencer à poster sur mon compte TikTok et insta qui sont désert en ce moment mdr.',
@@ -101,6 +108,7 @@ onMounted(() => {
             La liste de cadeaux de Gaëtan pour 2025
         </h1>
         <p class="subtitle">🎄 Noël & Anniversaire Edition 🎁</p>
+        <p class="informations">Il faudra vous concerter entre vous pour éviter les doublons, j'ai pas voulu m'embêter à gérer ça sur le site :)</p>
     </header>
 
     <GiftList :gifts="gifts" />
@@ -227,6 +235,13 @@ onMounted(() => {
     animation: pulse 2s ease-in-out infinite;
 }
 
+.informations{
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #ddd;
+    font-style: italic;
+}
+
 @keyframes pulse{
     0%, 100%{
         opacity: 1;
@@ -257,6 +272,10 @@ onMounted(() => {
 
     .subtitle{
         letter-spacing: 0.2em;
+    }
+
+    .informations{
+        font-size: 0.85rem;
     }
 }
 </style>
