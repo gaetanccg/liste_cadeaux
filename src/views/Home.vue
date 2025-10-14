@@ -4,28 +4,28 @@ import GiftList from '../components/GiftList.vue'
 
 const gifts = ref([
     {
-        id: 1,
-        nom: 'Stream Deck Elgato',
-        prix: 169.99,
-        description: 'Un Stream Deck, c\'est une mini console de controle du PC avec des boutons personnalisables. Je m\'en servirai pour mes montages, pour le developpement et aussi pour le jeu forcement. C\'est surtout utile pour faire de la gestion de taches rapides pour effecturer des actions sur le pc en 1 clic plutot que de devoir chercher dans les menus ou sur internet etc...',
-        image: '/images/stream_deck.jpg',
-        lien: 'https://www.elgato.com/fr/fr/p/stream-deck-mk2-black'
+      id: 1,
+      nom: 'Sac à dos à rabat roulé Tommy Hilfiger',
+      prix: 139.90,
+      description: 'J\'aimerai bien un nouveau sac à dos pour remplacer mon sac trop petit pour rentrer mon PC, ma gourde, mon livre et le reste de mes affaires.',
+      image: '/images/sac-travail.webp',
+      lien: 'https://fr.tommy.com/sac-%C3%A0-dos-%C3%A0-rabat-roul%C3%A9-am0am13644pa7'
     },
     {
-        id: 2,
-        nom: 'AOC AM420B - Double Bras Écran',
-        prix: 89.95,
-        description: 'Actuellement je suis obligé d\'incliner mes ecrans pour qu\'ils tiennent en équilibre sans s\'écrouler xD. Un bras double et de bonne qualité serait parfait pour arranger tout ça et gagner de la place sur mon bureau.',
-        image: '/images/AOC.jpg',
-        lien: 'https://www.ldlc.com/fiche/PB00607372.html'
+      id: 2,
+      nom: 'AOC AM420B - Double Bras Écran',
+      prix: 89.95,
+      description: 'Actuellement je suis obligé d\'incliner mes ecrans pour qu\'ils tiennent en équilibre sans s\'écrouler xD. Un bras double et de bonne qualité serait parfait pour arranger tout ça et gagner de la place sur mon bureau.',
+      image: '/images/AOC.jpg',
+      lien: 'https://www.ldlc.com/fiche/PB00607372.html'
     },
     {
-        id: 3,
-        nom: 'Sac à dos à rabat roulé Tommy Hilfiger',
-        prix: 139.90,
-        description: 'J\'aimerai bien un nouveau sac à dos pour remplacer mon sac trop petit pour rentrer mon PC, ma gourde, mon livre et le reste de mes affaires.',
-        image: '/images/sac-travail.webp',
-        lien: 'https://fr.tommy.com/sac-%C3%A0-dos-%C3%A0-rabat-roul%C3%A9-am0am13644pa7'
+      id: 3,
+      nom: 'DJI Osmo Mobile 7',
+      prix: 119.99,
+      description: 'Un stabilisateur pour smartphone qui me servirait à compléter mes prises de vues avec mon drone. Je pourrais faire des vidéos plus pro avec mon téléphone et ça me permettrait de varier les plaisirs on va dire.',
+      image: '/images/osmo.jpg',
+      lien: 'https://amzn.eu/d/iZqdk25'
     },
     {
         id: 4,
@@ -35,7 +35,6 @@ const gifts = ref([
         image: '/images/sac-pc.webp',
         lien: 'https://www.zalando.fr/pier-one-unisex-sac-ordinateur-black-pi954h060-q11.html'
     },
-
     {
         id: 5,
         nom: 'K&F CONCEPT Sac à Dos pour Appareil Photo / Drone',
@@ -45,7 +44,24 @@ const gifts = ref([
         lien: 'https://amzn.eu/d/0VfBaPC'
     },
     {
-        id: 6,
+      id : 6,
+      nom: 'Disque Dur Externe SSD 1 To SanDisk',
+      prix: 85.99,
+      description: 'Un disque dur qui me permettrait de stocker tous mes projets dev et mes vidéos. J\'ai besoin de beaucoup d\'espace de stockage alors si la version 2To est dans votre budget n\'hésitez pas c\'est un plus :)',
+      image: '/images/disque.jpg',
+      lien: 'https://amzn.eu/d/da3LHMC'
+
+    },
+    {
+      id: 7,
+      nom: 'Belkin Station d\'accueil USB-C multiport 11-en-1',
+      prix: 65.99,
+      description: 'Un hub USB-C pour brancher plein de trucs en même temps sur mon PC qui n\'a que 2 ports différents. Ça me permettra de brancher mon écran, mon disque dur, ma souris, mon clavier et tout le reste en un seul câble. C\'est super pratique !',
+      image: '/images/hub.jpg',
+      lien: 'https://amzn.eu/d/b39VzCa'
+    },
+    {
+        id: 8,
         nom: 'Tablette graphique Wacom Intuos Medium Black',
         prix: 102.34,
         description: 'Je fais pas mal de retouche photo et vidéo, j\'aimerais bien avoir une tablette graphique pour faire ça plus facilement et plus précisément. J\'ai toujours rêvé d\'en avoir une mais je n\'ai jamais sauté le pas.',
@@ -53,15 +69,7 @@ const gifts = ref([
         lien: 'https://amzn.eu/d/6wZ8tQK'
     },
     {
-        id: 7,
-        nom: 'DJI Osmo Mobile 7',
-        prix: 119.99,
-        description: 'Un stabilisateur pour smartphone qui me servirait à compléter mes prises de vues avec mon drone. Je pourrais faire des vidéos plus pro avec mon téléphone et ça me permettrait de varier les plaisirs on va dire.',
-        image: '/images/osmo.jpg',
-        lien: 'https://amzn.eu/d/iZqdk25'
-    },
-    {
-        id: 8,
+        id: 9,
         nom: 'DJI Jeu de Filtres ND Mini 4 Pro',
         prix: 48.49,
         description: 'C\'est le petit cadeau très utile, je ne vais pas rentrer dans la technique mais en gros ça permet de filmer dans un format très spécifique, plus adapté pour faire de la retouche derrière en post prod avec mon drone cinématique.',
@@ -69,15 +77,15 @@ const gifts = ref([
         lien: 'https://amzn.eu/d/jg6tBhB'
     },
     {
-        id: 9,
-        nom: 'Belkin Station d\'accueil USB-C multiport 11-en-1',
-        prix: 65.99,
-        description: 'Un hub USB-C pour brancher plein de trucs en même temps sur mon PC qui n\'a que 2 ports différents. Ça me permettra de brancher mon écran, mon disque dur, ma souris, mon clavier et tout le reste en un seul câble. C\'est super pratique !',
-        image: '/images/hub.jpg',
-        lien: 'https://amzn.eu/d/b39VzCa'
+      id: 10,
+      nom: 'Stream Deck Elgato',
+      prix: 169.99,
+      description: 'Un Stream Deck, c\'est une mini console de controle du PC avec des boutons personnalisables. Je m\'en servirai pour mes montages, pour le developpement et aussi pour le jeu forcement. C\'est surtout utile pour faire de la gestion de taches rapides pour effecturer des actions sur le pc en 1 clic plutot que de devoir chercher dans les menus ou sur internet etc...',
+      image: '/images/stream_deck.jpg',
+      lien: 'https://www.elgato.com/fr/fr/p/stream-deck-mk2-black'
     },
     {
-        id: 10,
+        id: 11,
         nom: 'ASUS ROG Moonstone Ace L Black - Tapis de Souris Gaming',
         prix: 86.22,
         description: 'C\'est LA révolution des tapis de souris, les tapis en verre trempé. C\'est super agréable au toucher, ça glisse tout seul et en plus c\'est super beau. Du coup je voulais changer mon tapis AliExpress :)',
@@ -85,7 +93,7 @@ const gifts = ref([
         lien: 'https://amzn.eu/d/91ev9x9'
     },
     {
-        id: 11,
+        id: 12,
         nom: 'DJI Avata 2',
         prix: 489,
         description: 'Ce drone m\'a toujours fait de l\'oeil. Il me permettrait de faire de la vidéo immersive en FPV et je pourrais bien me faire kiffer et commencer à poster sur mon compte TikTok et insta qui sont désert en ce moment mdr.',
